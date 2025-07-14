@@ -29,7 +29,7 @@ def main():
     log.info(f'TotalFaults {fault_count_total}')
     log.info(f'DetectedFaults {fault_count_detected}')
     log.info(f'FaultCoverage {fault_count_detected/fault_count_total*100:.2f}%')
-    print("hello")
+    log.info("hello")
 
 if __name__ == '__main__':
     main()
